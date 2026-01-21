@@ -17,7 +17,7 @@ const mySongs = [
         title: "TULUS - Monokrom (Official Music Video)",
         artist: "Tulus",
         // Link YouTube SUDAH DIUBAH ke format /embed/ agar bisa muncul
-        videoUrl: "https://www.youtube.com/embed/QqJ-Vp8mvbk?si=RkT1c84ooYMIUH5m" 
+        videoUrl: "https://www.youtube.com/embed/cMqfTJdbXpY?si=NTzeAK3ebECDB7fl" 
     },
     {
         id: 4,
