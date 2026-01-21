@@ -4,13 +4,13 @@ const mySongs = [
         id: 1,
         title: "Project Lagu Pertama",
         artist: "Produksi 2026",
-        videoUrl: "video/video1.mp4" // Pastikan file ada di folder video
+        videoUrl: "" // Pastikan file ada di folder video
     },
     {
         id: 2,
         title: "Draft Melodi Galau",
         artist: "Saya Sendiri",
-        videoUrl: "video/video2.mp4"
+        videoUrl: ""
     },
     {
         id: 3,
