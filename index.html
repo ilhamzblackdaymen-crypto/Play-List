@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Music Video Playlist</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- HALAMAN DAFTAR LAGU -->
+      <div id="list-section">
+        <h1>🎵 Koleksi Lagu Saya</h1>
+        <div id="playlist" class="grid-container">
+          <!-- Daftar lagu akan muncul di sini -->
+        </div>
+      </div>
+
+      <!-- HALAMAN PEMUTAR (HIDDEN BY DEFAULT) -->
+      <div id="player-section" class="hidden">
+        <button class="btn-back" onclick="goBack()">← Kembali ke Daftar</button>
+        <div class="video-display">
+          <h1 id="display-title">Judul Lagu</h1>
+          <p id="display-artist">Artis</p>
+          <div class="video-container">
+            <!-- Gunakan <video> untuk file lokal atau <iframe> untuk YouTube -->
+            <iframe
+              id="main-video"
+              width="100%"
+              height="400"
+              src=""
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
