@@ -2,15 +2,15 @@
 const mySongs = [
     {
         id: 1,
-        title: "Project Lagu Pertama",
-        artist: "Produksi 2026",
-        videoUrl: "" // Pastikan file ada di folder video
+        title: "Somebody's Pleasure",
+        artist: "Aziz Hedra",
+        videoUrl: "https://www.youtube.com/embed/cMqfTJdbXpY?si=NTzeAK3ebECDB7fl" // Pastikan file ada di folder video
     },
     {
         id: 2,
-        title: "Draft Melodi Galau",
-        artist: "Saya Sendiri",
-        videoUrl: ""
+        title: "Multo",
+        artist: "Cup Of Joe",
+        videoUrl: "https://www.youtube.com/embed/Rht8rS4cR1s?si=UgSt9uGm0iJkO-28"
     },
     {
         id: 3,
@@ -18,7 +18,14 @@ const mySongs = [
         artist: "Tulus",
         // Link YouTube SUDAH DIUBAH ke format /embed/ agar bisa muncul
         videoUrl: "https://www.youtube.com/embed/QqJ-Vp8mvbk?si=RkT1c84ooYMIUH5m" 
+    },
+    {
+        id: 4,
+        title: "",
+        artist: "",
+        videoUrl: ""
     }
+        
 ];
 
 const listSection = document.getElementById('list-section');
